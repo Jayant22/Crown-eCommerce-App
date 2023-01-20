@@ -19,14 +19,14 @@
   },
   "plugins": ["react"],
   "rules": {
-    "space-before-function-paren" :"off",
+    "space-before-function-paren": "off",
     "semi": [1, "always"],
     "comma-dangle": [
       "error",
       {
         "arrays": "always-multiline",
         "objects": "always-multiline",
-        "imports": "never",
+        "imports": "always-multiline",
         "exports": "never",
         "functions": "never"
       }
