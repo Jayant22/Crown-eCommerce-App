@@ -31,7 +31,18 @@
         "functions": "never"
       }
     ],
-    "react/prop-types": ["off"]
+    "react/prop-types": ["off"],
+    "react/no-unescaped-entities": [
+      "never",
+      {
+        "forbid": [
+          {
+            "char": "'",
+            "alternatives": ["&apos;"]
+          }
+        ]
+      }
+    ]
   },
   "settings": {
     "react": {
