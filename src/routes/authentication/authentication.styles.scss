@@ -1,0 +1,15 @@
+.authentication-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto auto;
+}
+
+.authentication-split {
+  border-left: 1.5px solid black;
+  height: 60%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: auto;
+}
